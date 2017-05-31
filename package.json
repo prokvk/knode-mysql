@@ -1,0 +1,23 @@
+{
+  "name": "knode-mysql",
+  "version": "1.0.1",
+  "description": "simple mysql wrapper",
+  "main": "index.js",
+  "dependencies": {
+    "mysql": "^2.13.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/prokvk/knode-mysql.git"
+  },
+  "author": "prokvk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prokvk/knode-mysql/issues"
+  },
+  "homepage": "https://github.com/prokvk/knode-mysql#readme"
+}
