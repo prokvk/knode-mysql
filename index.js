@@ -21,6 +21,9 @@
         return this.getConnection(function(err, conn) {
           return conn.query(query, done);
         });
+      },
+      parseQueryResult: function(rawResult) {
+        return JSON.parse(JSON.stringify(rawResult));
       }
     };
   };

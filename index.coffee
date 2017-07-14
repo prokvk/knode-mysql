@@ -14,3 +14,5 @@ module.exports = (config) ->
 
 	query: (query, done) ->
 		@getConnection (err, conn) -> conn.query query, done
+
+	parseQueryResult: (rawResult) -> JSON.parse(JSON.stringify rawResult)
